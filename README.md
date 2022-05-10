@@ -6,7 +6,7 @@ The "Multifocal-plane Virtual Microscope", which is the object of this GitHub Or
 
 This Virtual Microscope consists of two modules:
 
-* the "Viewer", which displays a selected virtual slide, and is contained in a separate repository:  [MFPvirtual-microscope/Viewer](https://github.com/MFPvirtual-microscope/Viewer).  An example of an implementation of the Viewer can be seen at: http://viewer.pnwu.edu.
+* the "Viewer", which displays a selected virtual slide, and is contained in a separate repository, [MFPvirtual-microscope/Viewer](https://github.com/MFPvirtual-microscope/Viewer), within this project (GitHub \'organization\').&nbsp; An example of an implementation of the Viewer can be seen at: http://viewer.pnwu.edu.
 * the "SlideBox", which is contained in this repository.&nbsp; SlideBox allows the user to search a database of virtual slides and to choose a slide to be displayed in the Viewer.&nbsp; An example of an implementation of the SlideBox can be seen at: http://slidebox.pnwu.edu.
 
 This repository ([MFPvirtual-microscope/SlideBox](https://github.com/MFPvirtual-microscope/SlideBox)) contains the code and ancillary files for the generic version of the SlideBox (each implementation of the SlideBox can be "branded" with the university's/institution's logo and specific "About" menu).&nbsp; In addition to the files contained in this repository, the SlideBox utilizes a database containing the virtual slides and a SQL database (containing metadata about the virtual slides).&nbsp; This repository consists of four directories (folders):
